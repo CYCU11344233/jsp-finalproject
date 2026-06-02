@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>加入會員 - 花卉購物商城</title>
+</head>
+
+<body>
+    <h1>加入會員</h1>
+    <form action="addMember.jsp" method="post">
+        <table border="0">
+            <tr>
+                <td>姓名：</td>
+                <td><input type="text" name="Name" required></td>
+            </tr>
+            <tr>
+                <td>Email (帳號)：</td>
+                <td><input type="email" name="Email" required></td>
+            </tr>
+            <tr>
+                <td>密碼：</td>
+                <td><input type="password" name="Password" required></td>
+            </tr>
+            <tr>
+                <td>電話：</td>
+                <td><input type="text" name="Phone"></td>
+            </tr>
+            <tr>
+                <td>地址：</td>
+                <td><input type="text" name="Address"></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" value="送出註冊">
+                    <input type="reset" value="重新填寫">
+                </td>
+            </tr>
+        </table>
+    </form>
+    <p><a href="index.jsp">回首頁</a></p>
+</body>
+
+</html>
